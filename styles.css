@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html {
+  /* # SPACE SYSTEM */
+  /* ## TYPOGRAPHY - FONT SIZES */
+  --10px: calc(10rem / 16);
+  --12px: calc(12rem / 16);
+  --14px: calc(14rem / 16);
+  --16px: calc(16rem / 16);
+  --18px: calc(18rem / 16);
+  --20px: calc(20rem / 16);
+  --24px: calc(24rem / 16);
+  --36px: calc(36rem / 16);
+  --44px: calc(44rem / 16);
+  --52px: calc(52rem / 16);
+  --62px: calc(62rem / 16);
+  --74px: calc(74rem / 16);
+  --86px: calc(86rem / 16);
+  --98px: calc(98rem / 16);
+
+  /* ## WHITESPACE */
+  --2ws: calc(2rem / 16);
+  --4ws: calc(4rem / 16);
+  --8ws: calc(8rem / 16);
+  --12ws: calc(12rem / 16);
+  --16ws: calc(16rem / 16);
+  --24ws: calc(24rem / 16);
+  --32ws: calc(32rem / 16);
+  --48ws: calc(48rem / 16);
+  --64ws: calc(64rem / 16);
+  --80ws: calc(80rem / 16);
+  --96ws: calc(96rem / 16);
+  --128ws: calc(128rem / 16);
+
+  /* # COLORS */
+  /* ## Primary */
+  --color-pp: hsl(322, 100%, 66%); /* - Pink */
+  /* ## Neutral */
+  --color-nvpc: hsl(193, 100%, 96%); /* - Very Pale Cyan */
+  --color-nvdc: hsl(192, 100%, 9%); /* - Very Dark Cyan */
+  --color-ngb: hsl(208, 11%, 55%); /* - Grayish Blue */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-size: var(--18px);
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #fff;
+}
+
+.container {
+  --min-width: calc(375rem / 16);
+  --max-width: calc(1440rem / 16);
+  min-width: var(--min-width);
+  max-width: var(--max-width);
+}
